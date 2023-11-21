@@ -36,11 +36,18 @@
     position: absolute;
     top: 370px;
     right: 95px;
+
 }
 
 .header__h1 {
     display:none;
 }
+
+.header__h2 {
+    padding-left: 10px;
+}
+
+
 
 .about {
     display:grid;

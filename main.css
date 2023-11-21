@@ -204,6 +204,9 @@
   .header__h1 {
     display: none;
   }
+  .header__h2 {
+    padding-left: 10px;
+  }
   .about {
     display: grid;
     grid-gap: 10px;
