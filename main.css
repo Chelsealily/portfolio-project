@@ -213,13 +213,13 @@
     float: right;
   }
   .about__text {
-    font-size: 22px;
+    font-size: 21px;
   }
   .about__text:after {
     clear: both;
   }
   .skills {
-    width: 95vw;
+    width: 92vw;
     border-radius: 5%;
   }
   .project {
