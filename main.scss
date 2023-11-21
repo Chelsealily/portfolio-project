@@ -41,14 +41,15 @@
   .about {
     display: grid;
     grid-gap: 10px;
+    width: 90vw;
 
     &__image {
-      width: 30%;
+      width: 35%;
       float: right;
     }
 
     &__text {
-      font-size: 21px;
+      font-size: 17px;
     }
 
     &__text:after {
