@@ -1,0 +1,89 @@
+@use "./variables" as *;
+
+// nav only in desktop view
+
+.nav {
+    font-weight: bold;
+    width: 90vw;
+    height: 50px;
+    background-color: $color-white;
+    margin-top: 10px;
+    
+&__logo {
+    
+    color: $color-gray;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &--star {
+        color: salmon;
+        font-weight: bold;
+    }
+  }
+
+
+  &__button { 
+        background-color: $color-white;
+        color: $color-gray;
+        text-decoration: none;
+        padding: 10px 25px;
+        border-radius: 15%;
+        font-size: 1em;   
+        
+        &--touch {
+            border: 2px solid rgb(218, 178, 93);
+            color: $color-black;
+        }
+
+  }
+}
+
+.skills__grid {
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 30px;
+    
+}
+
+//project section cards
+.card {
+    width: 80vw;
+    height: 550px;
+    margin: 17px;
+        
+
+&__image {
+        width: 100%;
+     }
+
+&__subtitle {
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+&__title {
+    font-size: 30px;
+    margin:0;
+}
+
+&__icons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+&__button {
+            background-color: $color-white;
+            color: $color-black;
+            text-decoration: none;
+            border: 2px solid rgb(218, 178, 93);
+            padding: 10px 25px;
+            border-radius: 15%;
+        
+        
+}
+
+}
