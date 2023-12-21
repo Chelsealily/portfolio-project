@@ -1,9 +1,12 @@
 @use "./variables" as *;
 
 .header {
-  width: 100vw;
+  width: 90vw;
   height: 650px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 
   &__h1 {
     padding-top: 30px;
@@ -49,7 +52,7 @@
   }
 
   &__image {
-    width: 80vw;
+    width: 30vw;
     border-radius: 2%;
     opacity: 90%;
   }

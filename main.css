@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 .header {
-  width: 100vw;
+  width: 90vw;
   height: 650px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header__h1 {
   padding-top: 30px;
@@ -43,7 +45,7 @@
           text-decoration: underline 8px solid salmon;
 }
 .about__image {
-  width: 80vw;
+  width: 30vw;
   border-radius: 2%;
   opacity: 90%;
 }
@@ -194,10 +196,13 @@
     display: flex;
     justify-content: space-between;
   }
+  .header {
+    padding-left: 50px;
+  }
   .header__image {
     display: unset;
     position: absolute;
-    top: 370px;
+    top: 420px;
     right: 95px;
   }
   .header__h1 {
