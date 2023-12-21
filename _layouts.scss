@@ -18,7 +18,6 @@
     font-size: 55px;
     padding-top: 20px;
     padding-bottom: 30px;
-
     width: 90vw;
 
     &--highlight {
@@ -52,7 +51,7 @@
   }
 
   &__image {
-    width: 30vw;
+    width: 20vw;
     border-radius: 2%;
     opacity: 90%;
   }
@@ -82,9 +81,9 @@
     padding-bottom: 30px;
   }
 }
-
+  
 .project {
-  width: 70vw;
+  width: 25vw;
   padding-top: 70px;
   padding-bottom: 30px;
   display: flex;

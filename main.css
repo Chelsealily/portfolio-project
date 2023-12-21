@@ -45,7 +45,7 @@
           text-decoration: underline 8px solid salmon;
 }
 .about__image {
-  width: 30vw;
+  width: 20vw;
   border-radius: 2%;
   opacity: 90%;
 }
@@ -75,7 +75,7 @@
 }
 
 .project {
-  width: 70vw;
+  width: 25vw;
   padding-top: 70px;
   padding-bottom: 30px;
   display: flex;
@@ -135,7 +135,8 @@
   font-size: 1em;
 }
 .nav__button--touch {
-  border: 2px solid rgb(218, 178, 93);
+  -webkit-text-decoration: 8px underline rgb(218, 178, 93);
+          text-decoration: 8px underline rgb(218, 178, 93);
   color: black;
 }
 
@@ -147,12 +148,12 @@
 }
 
 .card {
-  width: 80vw;
-  height: 550px;
-  margin: 17px;
+  width: 70vw;
+  height: 650px;
+  margin: 30px;
 }
 .card__image {
-  width: 100%;
+  width: 200px;
 }
 .card__subtitle {
   font-weight: bold;
@@ -217,7 +218,7 @@
     width: 90vw;
   }
   .about__image {
-    width: 35%;
+    width: 270px;
     float: right;
   }
   .about__text {
@@ -235,20 +236,23 @@
   }
   .project__grid {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 15px;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
     padding-top: 30px;
-    width: 88vw;
+    padding-left: 35px;
+    box-shadow: 5px 5px 10px #888888;
   }
   .project__cards2 {
     display: unset;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 15px;
     grid-template-columns: auto auto auto;
     padding-top: 30px;
-    width: 88vw;
-    padding-bottom: 120px;
+    width: 90vw;
+    padding-bottom: 520px;
+    height: 50vh;
+    padding-left: 35px;
+    box-shadow: 5px 5px 10px #888888;
   }
   .card {
     display: unset;

@@ -48,7 +48,7 @@
     width: 90vw;
 
     &__image {
-      width: 35%;
+      width: 270px;
       float: right;
     }
 
@@ -68,24 +68,28 @@
 
   .project {
     width: 90vw;
+    
 
     &__grid {
       display: grid;
-      grid-gap: 10px;
+      grid-gap: 15px;
       grid-template-columns: auto auto auto;
-      grid-template-rows: auto auto;
       padding-top: 30px;
-      width: 88vw;
+      padding-left: 35px;
+      box-shadow: 5px 5px 10px #888888;
     }
 
     &__cards2 {
       display: unset;
       display: grid;
-      grid-gap: 10px;
+      grid-gap: 15px;
       grid-template-columns: auto auto auto;
       padding-top: 30px;
-      width: 88vw;
-      padding-bottom: 120px;
+      width: 90vw;
+      padding-bottom: 520px;
+      height:50vh;
+      padding-left: 35px;
+      box-shadow: 5px 5px 10px #888888;
     }
   }
 

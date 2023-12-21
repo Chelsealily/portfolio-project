@@ -30,7 +30,7 @@
     font-size: 1em;
 
     &--touch {
-      border: 2px solid rgb(218, 178, 93);
+      text-decoration: 8px underline rgb(218, 178, 93);
       color: $color-black;
     }
   }
@@ -45,12 +45,12 @@
 
 //project section cards
 .card {
-  width: 80vw;
-  height: 550px;
-  margin: 17px;
+  width: 70vw;
+  height: 650px;
+  margin: 30px;
 
   &__image {
-    width: 100%;
+    width: 200px;
   }
 
   &__subtitle {
