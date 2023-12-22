@@ -135,8 +135,8 @@
   font-size: 1em;
 }
 .nav__button--touch {
-  -webkit-text-decoration: 8px underline rgb(218, 178, 93);
-          text-decoration: 8px underline rgb(218, 178, 93);
+  -webkit-text-decoration: 3px underline rgb(218, 178, 93);
+          text-decoration: 3px underline rgb(218, 178, 93);
   color: black;
 }
 
