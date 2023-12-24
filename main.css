@@ -111,7 +111,7 @@
 
 .nav {
   font-weight: bold;
-  width: 90vw;
+  width: 95vw;
   height: 50px;
   background-color: white;
   margin-top: 10px;
@@ -135,9 +135,8 @@
   font-size: 1em;
 }
 .nav__button--touch {
-  -webkit-text-decoration: 3px underline rgb(218, 178, 93);
-          text-decoration: 3px underline rgb(218, 178, 93);
-  color: black;
+  background-color: salmon;
+  color: white;
 }
 
 .skills__grid {
@@ -153,7 +152,10 @@
   margin: 30px;
 }
 .card__image {
-  width: 200px;
+  width: 220px;
+  border: 3px solid linen;
+  border-radius: 5%;
+  padding: 5px;
 }
 .card__subtitle {
   font-weight: bold;
@@ -162,6 +164,9 @@
 .card__title {
   font-size: 30px;
   margin: 0;
+}
+.card__description {
+  width: 250px;
 }
 .card__icons {
   display: flex;
@@ -183,6 +188,10 @@
   font-family: "Outfit", sans-serif;
 }
 
+a:hover {
+  background-color: rgb(218, 178, 93);
+}
+
 .nav {
   display: none;
 }
@@ -198,7 +207,7 @@
     justify-content: space-between;
   }
   .header {
-    padding-left: 50px;
+    padding-left: 80px;
   }
   .header__image {
     display: unset;
@@ -232,15 +241,15 @@
     border-radius: 5%;
   }
   .project {
-    width: 90vw;
+    width: 95vw;
   }
   .project__grid {
     display: grid;
     grid-gap: 15px;
     grid-template-columns: auto auto auto;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 35px;
-    box-shadow: 5px 5px 10px #888888;
+    box-shadow: 5px 5px 10px 10px #888888;
   }
   .project__cards2 {
     display: unset;
@@ -248,11 +257,11 @@
     grid-gap: 15px;
     grid-template-columns: auto auto auto;
     padding-top: 30px;
-    width: 90vw;
+    width: 95vw;
     padding-bottom: 520px;
     height: 50vh;
     padding-left: 35px;
-    box-shadow: 5px 5px 10px #888888;
+    box-shadow: 5px 5px 10px 10px #888888;
   }
   .card {
     display: unset;

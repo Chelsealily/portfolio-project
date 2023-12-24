@@ -8,6 +8,10 @@
   font-family: $font-body;
 }
 
+a:hover {
+  background-color: $color-yellow;
+}
+
 .nav {
   display: none;
 }
@@ -24,7 +28,7 @@
   }
 
   .header {
-    padding-left: 50px;
+    padding-left: 80px;
   }
 
   .header__image {
@@ -67,16 +71,15 @@
   }
 
   .project {
-    width: 90vw;
-    
+    width: 95vw;
 
     &__grid {
       display: grid;
       grid-gap: 15px;
       grid-template-columns: auto auto auto;
-      padding-top: 30px;
+      padding-top: 50px;
       padding-left: 35px;
-      box-shadow: 5px 5px 10px #888888;
+      box-shadow: 5px 5px 10px 10px #888888;
     }
 
     &__cards2 {
@@ -85,11 +88,11 @@
       grid-gap: 15px;
       grid-template-columns: auto auto auto;
       padding-top: 30px;
-      width: 90vw;
+      width: 95vw;
       padding-bottom: 520px;
       height:50vh;
       padding-left: 35px;
-      box-shadow: 5px 5px 10px #888888;
+      box-shadow: 5px 5px 10px 10px #888888;
     }
   }
 
