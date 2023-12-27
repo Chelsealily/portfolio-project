@@ -80,6 +80,7 @@ a:hover {
       padding-top: 50px;
       padding-left: 35px;
       box-shadow: 5px 5px 10px 10px #888888;
+      border-radius: 2%;
     }
 
     &__cards2 {
@@ -93,8 +94,11 @@ a:hover {
       height:50vh;
       padding-left: 35px;
       box-shadow: 5px 5px 10px 10px #888888;
-    }
+      margin-left:10px;
+      border-radius: 2%;
+    
   }
+}
 
   .card {
     display: unset;

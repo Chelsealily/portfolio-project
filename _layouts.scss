@@ -82,13 +82,14 @@
     padding-bottom: 30px;
   }
 }
-  
+
 .project {
   width: 25vw;
   padding-top: 70px;
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
+  padding-left: 10px;
 
   &__title {
     font-size: 32px;
@@ -98,7 +99,9 @@
   }
 
   &__cards2 {
+    padding-left: 10px;
     display: none;
+    
   }
 }
 
