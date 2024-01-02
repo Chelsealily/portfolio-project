@@ -46,30 +46,65 @@ a:hover {
     padding-left: 10px;
   }
 
-  .about {
-    display: grid;
+  .about__container {
+    display: flex;
     grid-gap: 10px;
     width: 90vw;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
 
-    &__image {
-      width: 270px;
-      float: right;
-    }
+  .about__image {
+    width: 270px;
+    float: right;
+  }
+  .about__text {
+    font-size: 17px;
+    background-color: pink;
+    opacity: 0.7;
+    padding: 10px 25px;
+    border-radius: 5%;
+    border: 2px solid pink;
+  }
 
-    &__text {
-      font-size: 17px;
-    }
-
-    &__text:after {
-      clear: both;
-    }
+  .about__text:after {
+    clear: both;
   }
 
   .skills {
     width: 92vw;
     border-radius: 5%;
+    height: 90vh;
   }
 
+  .cyber {
+    
+    padding-top: 30px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  &__pic {
+    width: 10vw;
+    background-color: $color-linen;
+    border-radius: 95%;
+
+  }  
+}
+
+  .cyber__pic--desc {
+    width:20vw;
+    text-align: center;
+
+  }
+  
+  .cyber__pic--label{
+    background-color: $color-gray;
+    color: $color-white;
+    padding: 10px 25px;
+  }
+  
   .project {
     width: 90vw;
 
@@ -91,14 +126,13 @@ a:hover {
       padding-top: 30px;
       width: 90vw;
       padding-bottom: 520px;
-      height:50vh;
+      height: 50vh;
       padding-left: 35px;
       box-shadow: 5px 5px 10px 10px #888888;
-      margin-left:10px;
+      margin-left: 10px;
       border-radius: 2%;
-    
+    }
   }
-}
 
   .card {
     display: unset;

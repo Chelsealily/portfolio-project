@@ -187,7 +187,9 @@
   background-color: white;
   color: black;
   text-decoration: none;
-  border-radius: 15%;
+  border: 2px solid rgb(218, 178, 93);
+  border-radius: 55%;
+  padding: 10px 25px;
 }
 
 * {
@@ -229,10 +231,12 @@ a:hover {
   .header__h2 {
     padding-left: 10px;
   }
-  .about {
-    display: grid;
+  .about__container {
+    display: flex;
     grid-gap: 10px;
     width: 90vw;
+    flex-direction: row-reverse;
+    align-items: center;
   }
   .about__image {
     width: 270px;
@@ -240,6 +244,11 @@ a:hover {
   }
   .about__text {
     font-size: 17px;
+    background-color: pink;
+    opacity: 0.7;
+    padding: 10px 25px;
+    border-radius: 5%;
+    border: 2px solid pink;
   }
   .about__text:after {
     clear: both;
@@ -247,6 +256,28 @@ a:hover {
   .skills {
     width: 92vw;
     border-radius: 5%;
+    height: 90vh;
+  }
+  .cyber {
+    padding-top: 30px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cyber__pic {
+    width: 10vw;
+    background-color: linen;
+    border-radius: 95%;
+  }
+  .cyber__pic--desc {
+    width: 20vw;
+    text-align: center;
+  }
+  .cyber__pic--label {
+    background-color: rgb(91, 91, 91);
+    color: white;
+    padding: 10px 25px;
   }
   .project {
     width: 90vw;
