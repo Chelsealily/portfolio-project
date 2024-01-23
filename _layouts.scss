@@ -21,7 +21,7 @@
     width: 90vw;
 
     &--highlight {
-      text-decoration: rgba(95, 158, 160, 0.576) double underline 8px;
+      text-decoration: #ffe0ae double underline 8px;
     }
   }
 
@@ -108,7 +108,7 @@
 }
 
 .footer {
-  background-color: $color-gray;
+  background-color: cadetblue;
   height: 216px;
   width: 100vw;
   display: flex;
@@ -116,7 +116,7 @@
   justify-content: center;
   align-items: center;
   border-top-style: double;
-  border-top-color: salmon;
+  border-top-color: #ffe0ae;
   border-top-width: 7px;
 
   &__email {

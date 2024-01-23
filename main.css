@@ -18,8 +18,8 @@
   width: 90vw;
 }
 .header__h2--highlight {
-  -webkit-text-decoration: rgba(95, 158, 160, 0.576) double underline 8px;
-          text-decoration: rgba(95, 158, 160, 0.576) double underline 8px;
+  -webkit-text-decoration: #ffe0ae double underline 8px;
+          text-decoration: #ffe0ae double underline 8px;
 }
 .header__button {
   background-color: white;
@@ -97,7 +97,7 @@
 }
 
 .footer {
-  background-color: rgb(91, 91, 91);
+  background-color: cadetblue;
   height: 216px;
   width: 100vw;
   display: flex;
@@ -105,7 +105,7 @@
   justify-content: center;
   align-items: center;
   border-top-style: double;
-  border-top-color: salmon;
+  border-top-color: #ffe0ae;
   border-top-width: 7px;
 }
 .footer__email {
@@ -128,7 +128,7 @@
   text-transform: uppercase;
 }
 .nav__logo--star {
-  color: salmon;
+  color: cadetblue;
   font-weight: bold;
 }
 .nav__button {
@@ -258,7 +258,7 @@ a:hover {
   .skills {
     width: 92vw;
     border-radius: 5%;
-    height: 90vh;
+    height: 80vh;
   }
   .cyber {
     padding-top: 30px;
